@@ -1,0 +1,18 @@
+nav {
+    /* color: #FFF; */
+    text-align: center;
+    font-family: Merriweather;
+}
+
+header>nav>h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 227px;
+}
+
+header>nav>h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
