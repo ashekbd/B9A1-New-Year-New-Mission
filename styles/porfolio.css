@@ -1,18 +1,33 @@
-nav {
-    /* color: #FFF; */
-    text-align: center;
+div {
+    color: #FFF;
     font-family: Merriweather;
+    margin: 50px 140px 0px 140px;
+    height: 600px;
+    width: 1320px;
+    background: rgba(0, 0, 0, 0.5) url('../resources/Banner\ Image.png');
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    /* background-image: url('../resources/Banner\ Image.png'); */
+    border-radius: 16px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display:grid;
+    align-items: center;
+    justify-content: center;
 }
 
-header>nav>h3 {
-    font-size: 32px;
+
+.title-1 {    
+    text-align: center;    
+    font-size: 32px;    
     font-weight: 400;
-    margin-top: 227px;
+    /* margin: 200px 0px 0px 0px;     */
 }
 
-header>nav>h1 {
-    font-size: 72px;
+.title-2 {    
+    text-align:center;  
+    font-size: 72px;    
     font-weight: 900;
     line-height: 95px;
-    /* 131.944% */
 }
